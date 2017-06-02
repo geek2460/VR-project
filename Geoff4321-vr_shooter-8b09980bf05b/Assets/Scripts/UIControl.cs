@@ -40,7 +40,7 @@ public class UIControl : MonoBehaviour {
 
             }
         }
-
+        Debug.Log("songs number: " + songDirectList.Count);
 
         /*StreamWriter writer = new StreamWriter(songDirectList[0] + "/score.txt");
         writer.WriteLine("0");
